@@ -1,0 +1,190 @@
+/*!* Sidebar Dashboard CSS *!*/
+/*.dashboar .leftMenuBar1{*/
+/*  background: #2B435E;*/
+/*  width: 105px;*/
+/*  margin-left: -15px;*/
+/*  color: #FFF;*/
+/*  height: 100vh;*/
+/*  min-height: 650px;*/
+/*  float: left;*/
+/*  padding: 15px;*/
+/*  position: relative;*/
+/*}*/
+/*.dashboar .logo{*/
+/*  background: #20C65A;*/
+/*  width: 60px;*/
+/*  height: 60px;*/
+/*  border-radius: 5px;*/
+/*  margin: auto;*/
+/*}*/
+/*.dashboar .menue{*/
+/*  background: #263C56;*/
+/*  width: 60px;*/
+/*  height: 60px;*/
+/*  border-radius: 5px;*/
+/*  margin: auto;*/
+/*  margin-top: 20px;*/
+/*}*/
+/*.dashboar .sideMenue{*/
+/*  background: #2B435E;*/
+/*  height: 100vh;*/
+/*  width: 400px;*/
+/*  position: absolute;*/
+/*  left: -400px;*/
+/*  opacity: 0.9;*/
+/*  transition: 1s;*/
+/*  min-height: 650px;*/
+/*}*/
+/*.dashboar .open{*/
+/*  left: 105px;*/
+/*}*/
+/*.sideMenue .form-group{*/
+/*  padding: 20px 20px;*/
+/*}*/
+/*.sideMenue .form-group input{*/
+/*  background: #263C56;*/
+/*  border: 1px solid #263C56;*/
+/*  color: #FFF;*/
+/*}*/
+/*.dashboar .menue .ifit{*/
+/*  font-size: 25px;*/
+/*  margin-top: 15px;*/
+/*  color: #FFF;*/
+/*}*/
+/*.dashboar .leftMenuBar1 .bst{*/
+/*  position: absolute;*/
+/*  bottom: 10px;*/
+/*  left: 20px;*/
+/*}*/
+/*.dashboar .leftMenuBar1 .bst img{*/
+/*  margin-top: 10px;*/
+/*  width: 60px;*/
+/*  height: 60px;*/
+/*  border-radius: 50%;*/
+/*}*/
+/*.leftMenuBar1 .logo img{*/
+/*  width: 35px;*/
+/*  margin-top: 10px;*/
+/*}*/
+/*!* Sidebar Dashboard CSS end*!*/
+
+.dashboar .menue .help{
+  height: 25px;
+  width: 20px;
+}
+.sideMenueWidgit{
+  height: 110px;
+  width: 110px;
+  margin: 5px;
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 5px;
+  line-height: 16px;
+  cursor: pointer;
+}
+.sideMenueWidgit .hvr{
+  cursor: pointer;
+}
+.sideMenue .form-group{
+  display: flex;
+  flex-wrap: wrap;
+}
+.dashboar .menue.active {
+  border:1px solid #fff;
+}
+h3.title {
+  display: block;
+  width: 100%;
+  color: #fff;
+  padding-left: 10px;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+.dashboar .open:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 100%;
+  height: 100%;
+  /* width: 100vw; */
+  width: calc(100vw - 400px);
+  background-color: rgba(0,0,0,0.5);
+  z-index: 10;
+}
+.sideMenueWidgit{position: relative;}
+.sideMenueWidgit p{
+  position: absolute;
+  bottom: 5px;
+  padding-top: 10px;
+  left: 50%;
+  font-size: 12px;
+  transform: translateX(-50%);
+}
+.sideMenueWidgit img,.sideMenueWidgit .custom-icon{
+  padding-bottom: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28px;
+}
+.flylist{
+  width: 150px;
+  max-width: 200px;
+  position: absolute;
+  z-index: 900;
+  border-radius: 5px;
+  -moz-transform: translate3d(55px, -53px, 0px);
+  -ms-transform: translate3d(55px, -53px, 0px);
+  -o-transform: translate3d(55px, -53px, 0px);
+  transform: translate3d(55px, -53px, 0px);
+  left: 0;
+  top: 0;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.flylist-link {
+  text-align: left;
+}
+.flylist-link a {
+  display: block;
+  text-decoration:none;
+  padding: 10px;
+  color: #000000;
+}
+.flylist-link a:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 10px;
+  padding: 10px;
+}
+.avatar{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  cursor: pointer;
+  background: #17D463;
+}
+.avatar-text {
+  text-align: center;
+  padding-top: 6px;
+}
+
+@media print{
+    .doNotPrint{display:none !important;}
+}
+.sideMenueWidgit:active,.sideMenueWidgit:focus,.sideMenueWidgit.sideMenueWidgit-active{
+  background: #fff;
+  color: #666;
+}
+.bg-orange{background: #F18C16;}
+.bg-yellow{background: #F0C734;}
+.bg-floor{background: #E065E2;}
+.bg-green{background: #17D463;}
+.bg-pos{background: #1688F1;}
+.bg-transaction{background: #6C63FF;}
+.bg-report{background: #355FCA;}
+.bg-customer{background: #A64EFF;}
+.bg-setting{background: #58B8AC;}
+.bg-orders{background: #4D77A7;}

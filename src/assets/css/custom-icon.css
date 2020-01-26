@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'customIcon';
+    src:  url('../icons/custom-icon.eot?uzdhz5');
+    src:  url('../icons/custom-icon.eot?uzdhz5#iefix') format('embedded-opentype'),
+      url('../icons/custom-icon.ttf?uzdhz5') format('truetype'),
+      url('../icons/custom-icon.woff?uzdhz5') format('woff'),
+      url('../icons/custom-icon.svg?uzdhz5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.custom-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'customIcon' !important;
+  /* speak: none; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-new_device:before {
+  content: "\e924";
+}
+.icon-shop1:before {
+  content: "\e925";
+}
+.icon-shop:before {
+  content: "\e926";
+}
+.icon-target:before {
+  content: "\e928";
+}
+.icon-refunding:before {
+  content: "\e92b";
+}
+.icon-cards:before {
+  content: "\e92c";
+}
+.icon-pay:before {
+  content: "\e91f";
+}
+.icon-wallet:before {
+  content: "\e920";
+}
+.icon-wealth:before {
+  content: "\e921";
+}
+.icon-sign-out:before {
+  content: "\e901";
+}
+.icon-user:before {
+  content: "\e900";
+}
+.icon-e-gift-Card:before {
+  content: "\e902";
+}
+.icon-Employee-wise:before {
+  content: "\e903";
+}
+.icon-Plastic-Gift-Card:before {
+  content: "\e904";
+}
+.icon-Product-Wise-Sales:before {
+  content: "\e905";
+}
+.icon-payment-Type:before {
+  content: "\e906";
+}
+.icon-Category-Wise:before {
+  content: "\e907";
+}
+.icon-modifier:before {
+  content: "\e908";
+}
+.icon-product:before {
+  content: "\e909";
+}
+.icon-receipt:before {
+  content: "\e90a";
+}
+.icon-sales_summary:before {
+  content: "\e90b";
+}
+.icon-sections:before {
+  content: "\e90c";
+}
+.icon-settings:before {
+  content: "\e90d";
+}
+.icon-subscriptions:before {
+  content: "\e90e";
+}
+.icon-tax:before {
+  content: "\e90f";
+}
+.icon-discount:before {
+  content: "\e910";
+}
+.icon-taxes_report:before {
+  content: "\e911";
+}
+.icon-timecards:before {
+  content: "\e912";
+}
+.icon-section:before {
+  content: "\e913";
+}
+.icon-floor:before {
+  content: "\e914";
+}
+.icon-user_group:before {
+  content: "\e915";
+}
+.icon-all_transactions:before {
+  content: "\e916";
+}
+.icon-authorized_representative:before {
+  content: "\e917";
+}
+.icon-category:before {
+  content: "\e918";
+}
+.icon-company_setting:before {
+  content: "\e919";
+}
+.icon-deposit_reports:before {
+  content: "\e91a";
+}
+.icon-devices:before {
+  content: "\e91b";
+}
+.icon-directory:before {
+  content: "\e91c";
+}
+.icon-membership:before {
+  content: "\e91d";
+}
+.icon-dining:before {
+  content: "\e91e";
+}
+.icon-email_notifications:before {
+  content: "\e922";
+}
+.icon-feedback:before {
+  content: "\e923";
+}
+.icon-floor_plans:before {
+  content: "\e927";
+}
+.icon-ingredients:before {
+  content: "\e929";
+}
+.icon-menu:before {
+  content: "\e92a";
+}

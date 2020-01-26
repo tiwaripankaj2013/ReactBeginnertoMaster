@@ -1,0 +1,1001 @@
+@import url("font.css");
+body{
+  background: #FFF;
+  color: #525653;
+  font-size: 14px;
+  min-height: calc(100vh + 0px);
+  min-width: 320px;
+  font-family: OpenSansRegular,"Open Sans",Arial,Helvetica,sans-serif;
+  /*font-family: HelveticaNeueMedium' !important;*/
+}
+.p0{
+  padding: 0;
+}
+.p10{
+  padding: 10px;
+}
+.p25{
+  padding: 25px;
+}
+.pb15{
+  padding-bottom: 15px;
+}
+.pt15{
+  padding-top: 15px;
+}
+.pr5{padding-right: 5px !important;}
+.m0{
+  margin: 0;
+}
+.mt15{
+  margin-top: 15px;
+}
+.mt5{
+  margin-top: 5px;
+}
+.mt20{
+  margin-top: 20px;
+}
+.mt25{
+  margin-top: 25px;
+}
+.mb10{
+  margin-bottom: 10px;
+}
+.mb20{
+  margin-bottom: 20px;
+}
+.mb0{
+  margin-bottom: 0;
+}
+.ml10{
+  margin-left: 10px;
+}
+.ml50{
+  margin-left: 50px;
+}
+.login_left{
+
+  height: 100vh;
+  min-height: 650px;
+}
+
+@media screen and (max-width: 991px){
+  .md-hide{
+    display: none;
+  }
+}
+.login_right{
+  background: #2B435E;
+  height: 100vh;
+  position: relative;
+  min-height: 650px;
+}
+@media screen and (max-width: 767px){
+  .login_right{
+    padding: 0;
+  }
+}
+.h60{
+  height: 60px;
+}
+.cartbody{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.login_box{
+  background: #FFF;
+  width: 80%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 991px){
+  .login_box{
+    width: 100%;
+    border-radius: 0;
+    top: 75%;
+    position: unset;
+    -ms-transform: none;
+    transform: none;
+    width: 100%;
+    border-radius: 0;
+  }
+}
+@media screen and (max-width: 576px){
+  .login_box{
+    width: 100%;
+    border-radius: 0;
+    top: 75%;
+  }
+}
+.mdb input , .mdb select , ::placeholder{
+
+  font-size: 16px;
+  /* font-family: HelveticaNeue; */
+  font-family: 'HelveticaNeueLight';
+  height: 48px;
+  border-radius: 2px;
+  display: block;
+}
+.mdb label 				 {
+  color: #BABBBA !important;
+  font-size:16px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:30px;
+  top:10px;
+  font-family: HelveticaNeueLight;
+  transition:0.2s ease all;
+  -moz-transition:0.2s ease all;
+  -webkit-transition:0.2s ease all;
+}
+.mdb input:focus ~ label,.mdb  input:valid ~ label {
+  top:0px;
+  left: 24px;
+  font-size:10px;
+}
+.mdb:focus{
+  color: #BABBBA;
+}
+.mdb button{
+  padding: 5px 35px;
+}
+h1{
+  font-size: 1.5em;
+  margin: 0;
+}
+.lgfont{
+  font-size: 2em;
+}
+p , label{
+  margin-bottom: 5px;
+}
+.row-small >div{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.left_img{
+  background: url(../images/Rectangle.png) #C4C4C4 no-repeat;
+  background-size: cover;
+  width: 100%;
+  float: left;
+}
+.stc{
+  color: #607082;
+}
+.signIn{
+  color: #008D7A
+}
+.mbl{
+  display: none;
+}
+@media screen and (max-width: 767px){
+  .mbl{
+    height: auto;
+    width: 20px;
+    display: block;
+  }
+}
+.en , .en:focus{
+  background: #2B435E;
+  color: #FFF;
+  border-color: #FFF;
+}
+
+/*input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.9s ease;
+  -moz-animation:inputHighlighter 0.9s ease;
+  animation:inputHighlighter 0.9s ease;
+}
+
+/* ANIMATIONS ================ */
+/*@-webkit-keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}*/
+/* The container */
+/*
+.customCheck {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.customCheck input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+.checkmark {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #FFF;
+  border: 1px solid #CCC;
+}
+
+.customCheck input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+.customCheck :after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.customCheck input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.customCheck .checkmark:after {
+  left: 5px;
+  top: 3px;
+  width: 3px;
+  height: 6px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.captchaer{
+	height: 57px;
+    background: #f7f7f7;
+    width: 247px;
+    border-radius: 5px;
+    position: relative;
+    padding: 10px;
+}
+*/
+.customCheck {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.customCheck input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+.checkmark {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #FFF;
+  border: 1px solid #CCC;
+}
+
+.customCheck input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+.customCheck :after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.customCheck input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.customCheck .checkmark:after {
+  left: 8px;
+  top: 5px;
+  width: 6px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.captchaer{
+  height: 57px;
+  background: #f7f7f7;
+  width: 247px;
+  border-radius: 5px;
+  position: relative;
+  padding: 10px;
+}
+
+.captchaer{
+  height: 57px;
+  background: #F9F9F9;
+  width: 247px;
+  border-radius: 5px;
+  position: relative;
+  padding: 10px;
+}
+.captchaer img{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.red{
+  color: #ED3D3D;
+}
+.btn-dark{
+  background: #2B435E;
+  border-radius: 4px;
+  color: #FFF;
+}
+.btn-dark:hover , .btn-dark:focus{
+  color: #FFF;
+}
+.btn-space{
+  height: 40px;
+  padding: 0 15px;
+  margin: 10px;
+}
+
+
+/* Modal Sart */
+.customModal .modal-header{
+  background: #2B435E;
+  color: #FFF;
+  text-align: center;
+}
+/*.customModal .modal-header .cancelIcon{*/
+/*  position: absolute;*/
+/*  right: 20px;*/
+/*  top: 14px;*/
+/*  background: #FFF;*/
+/*  border-radius: 50%;*/
+/*  height: 20px;*/
+/*  width: 20px;*/
+/*}*/
+.customModal .modal-header button{
+  background: #2b435e;
+  opacity: 1;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  margin-top: 5px;
+  position: relative;
+  outline: none;
+  text-shadow: 0px 0px 0px #ffffff;
+}
+.customModal .modal-header button span{
+  color: #FFF;
+  position: absolute;
+  top: -3px;
+  left: 4px;
+}
+/*.customModal .modal-header .cancelIcon .close{*/
+/*  opacity: 1;*/
+/*  position: absolute;*/
+/*  left: 4px;*/
+/*}*/
+h2{
+  font-size: 1.3em;
+  margin: 0;
+}
+.box{
+  border: 1px solid #BCC9D2;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Switch End */
+
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 20px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 19px;
+  left: 1px;
+  bottom: 1px;
+  background-color: white;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #20C65A;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.onOf{
+  position: relative;
+}
+.onOf .onText{
+  position: absolute;
+  left: 45px;
+}
+.pl45{
+  padding-left: 45px;
+}
+.smFont{
+  font-size: 12px;
+}
+.mt10{
+  margin-top: 10px;
+}
+.thin{
+  border: 0.5px solid #ddd !important;
+}
+.ml-15{
+  margin-left: -15px;
+}
+.mr-15{
+  margin-right: -15px;
+}
+label{
+  font-weight: 400;
+}
+
+/*Modal End */
+.m0{
+  margin: 0;
+}
+/* Dashboard CSS */
+.dashboar .leftMenuBar1{
+  background: #2B435E;
+  width: 80px;
+  margin: auto;
+  color: #FFF;
+  height: 100vh;
+  min-height: 659px;
+  float: left;
+  padding: 15px;
+  position: fixed;
+  z-index: 3;
+}
+.dashboar .leftMenuBar2{
+  width: 270px;
+  background: #F0F5F9;
+  height: 100vh;
+  float: left;
+  min-height: 650px;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 80px;
+}
+@media screen and (max-width: 991px) {
+  .dashboar .leftMenuBar2{
+    display: none;
+
+
+  }
+}
+.dashboar .dash{
+  padding: 15px;
+  width: calc(100% - 336px);
+  float: right;
+  height: 650px;
+  overflow: visible;
+}
+@media screen and (max-width: 991px){
+  .dashboar .dash{
+    width: calc(100% - 70px);
+  }
+}
+.dashboar .logo{
+  background: #20C65A;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin: auto;
+}
+.dashboar .menue{
+  background: #263C56;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 20px;
+}
+.leftMenuBar2 ul li{
+  list-style-type: none;
+  padding: 10px 0;
+  padding: 10px;
+}
+.leftMenuBar2 ul li:hover,.leftMenuBar2 ul li:focus{
+  outline: none; 
+  background: #e4e8ea;
+  border-radius: 5px;
+}
+.leftMenuBar2 ul li:hover a:hover,
+.leftMenuBar2 ul li:focus a:focus{
+  text-decoration: none;
+}
+.leftMenuBar2 ul li a:hover,
+.leftMenuBar2 ul li a:focus{
+  text-decoration: none;
+  outline: none;
+}
+.leftMenuBar2 ul li a span.custom-icon{padding-right: 2px; font-size: 14px;}
+.leftMenuBar2 ul{
+  padding: 0;
+}
+.dashboar .leftMenuBar2 ul .active{
+  background: #E0EBF5 !important;
+  border-radius: 5px;
+
+}
+.dashboar .leftMenuBar2 ul li:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.dashboar .leftMenuBar2 a{
+  color: #2B435E;
+  display: list-item;
+}
+.dashboar .sideMenue{
+  background: #2B435E;
+  z-index: 2 !important;
+  height: 100vh;
+  width: 400px;
+  position: fixed;
+  left: -400px;
+  opacity:1;
+  transition: 0.5s;
+  min-height: 650px;
+}
+.dashboar .open{
+  left: 80px;
+  z-index: 3;
+}
+
+.sideMenue .form-group{
+  padding: 20px 20px;
+}
+.sideMenue .form-group input{
+  background: #263C56;
+  border: 1px solid #263C56;
+  color: #FFF;
+}
+
+.leftMenuBar2 h4{
+  color: #2B435E;
+}
+.dashboar .dash .title{
+  max-width: 70%;
+  font-size: 12px;
+  color: #607082;
+  font-weight: 300;
+}
+@media screen and (max-width: 576px){
+  .dashboar .dash .title{
+    max-width: 100%;
+  }
+}
+
+/*.dashboar .dash .mdb{
+  width: 240px;
+  float: left;
+  position: relative;
+}*/
+@media screen and (max-width: 576px){
+  .dashboar .dash .userSearch .mdb{
+    width: 100%;
+    float: unset;
+  }
+}
+.dashboar .dash .userSearch button{
+  float: right;
+}
+
+@media screen and (max-width: 576px){
+  .dashboar .dash .userSearch button{
+    float: unset;
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+.dashboar .dash .customTable{
+  min-width: 400px;
+  overflow: auto;
+}
+@media screen and (max-width: 767px){
+  .dashboar .dash .customTable{
+    min-width: 300px;
+  }
+}
+.dashboar .dash .customTable tr td:first-child{
+  color: #008E7A;
+  font-weight: 500;
+}
+/*.dashboar .dash .customTable tr td:last-child{*/
+/*  width: 200px;*/
+/*}*/
+@media screen and (max-width: 767px){
+  .dashboar .dash .customTable tr td:last-child{
+    width: 100px;
+  }
+}
+.dashboar .dash .customTable table{
+  font-weight: 300;
+}
+.dashboar .menue .ifit{
+  font-size: 25px;
+  margin-top: 10px;
+  color: #FFF;
+}
+.dashboar .leftMenuBar1 .bst{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.dashboar .leftMenuBar1 .bst img{
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.leftMenuBar1 .logo img{
+  width: 30px;
+  margin-top: 10px;
+}
+.dashboar .dash .rsm{
+  display: none;
+}
+@media screen and (max-width: 991px){
+  .dashboar .dash .rsm{
+    display: block;
+    height: 60px;
+  }
+}
+.dashboar .dash .rsm .mdb select{
+  height: 35px;
+  background: #2B435E;
+  color: #FFF;
+}
+.dashboar .dash .userSearch .mdb p{
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+.dashboar .dash .userSearch .mdb input{
+  padding-left: 30px;
+}
+/* Dashboard CSS end*/
+
+.stc1{
+  color: #BABBBA;
+}
+
+@media screen and (min-width: 992px) {
+  .pr_md0{
+    padding-right: 0;
+  }
+}
+.error{
+  visibility: visible;
+  color: #ff0000;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.noError{
+  visibility: hidden;
+}
+.fullWidth{
+  width: 100%;
+}
+
+.btn-none{
+  border: 1px solid #BCC9D2;
+}
+.btn-red{
+  border: 1px solid #ff0000;
+  color: #ff0000;
+}
+.customModal a{
+  color: #008E7A;
+}
+
+td{
+  vertical-align: top;
+}
+.bdRight{
+  border-right: none !important;
+}
+.modal-footer{
+  display: none;
+}
+.ftc{
+  color: #008E7A;
+}
+.flex-container input[type='checkbox']{
+  display: block;
+  margin:  auto;
+}
+
+/* Custom Checkbox */
+/* The container */
+.customCheck1 {
+  display: block;
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.customCheck1 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark1 {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  border: 1px solid #2B435E;
+  border-radius: 3px;
+}
+
+/* On mouse-over, add a grey background color */
+
+
+/* When the checkbox is checked, add a blue background */
+.customCheck1 input:checked ~ .checkmark1 {
+  background-color: #2B435E;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark1:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.customCheck1 input:checked ~ .checkmark1:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.customCheck1 .checkmark1:after {
+  left: 5px;
+  top: 2px;
+  width: 4px;
+  height: 9px;
+  border: solid white;
+  border-width: 0 2px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/********/
+
+
+.disabled{
+  top: 0px;
+  left: 24px;
+  font-size: 10px;
+}
+
+
+.btn-space1{
+  height: 48px;
+  padding: 0 8px;
+}
+
+
+textarea{
+  min-height: 100px;
+}
+
+.searchInput{
+  position: relative;
+}
+.searchInput input{
+  padding-left: 45px;
+}
+.searchInput p{
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+
+.stc4{
+  color: #717C81;
+}
+
+.width60{
+  width: 60px;
+}
+.width40{
+  width: 40px;
+}
+p{
+  font-family: HelveticaNeueLight;
+  letter-spacing: 0.25px;
+}
+.f20{
+  font-size: 20px;
+}
+
+.box1{
+  border: 1px solid #BCC9D2;
+  padding: 15px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: #607082;
+}
+.stc5{
+  color: #525653;
+}
+
+span{
+  font-family: HelveticaNeueLight;
+}
+.fm{
+  font-family: 'HelveticaNeueMedium' !important;
+}
+
+.timecards .dash li{
+  border-bottom: 1px solid #525653;
+
+}
+.timecards .dash li a{
+  border-right: 1px solid #525653;
+  margin-bottom: 5px;
+  color: #2B435E;
+}
+.timecards .dash ul .active{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ECF5FF 100%);
+  font-weight: 600;
+}
+.timecards .nav>li>a:focus, .nav>li>a:hover{
+  background: none;
+}
+.timecards .dash .heught48{
+  height: 48px;
+}
+.stc6{
+  color: #FFFFFF;
+}
+
+.customModal .modal-header button span {
+  display: block;
+}
+
+a{
+  cursor: pointer;
+}
+.del-icon {
+  cursor: pointer;
+  font-size: 24px;
+  /* color: #525653; */
+  margin-top: 6px;
+  margin-left: -15px;
+}
+
+.input-group-date{
+  display:flex;
+}
+.input-group-date .form-control.input-date{ 
+  border-radius: 0;
+  max-width: 150px;
+  padding: 6px 6px;
+  width: 100%;
+}
+.input-group-date .input-date-left-btn{
+  padding: 6px 5px;
+  border-radius: 4px 0px 0px 4px;
+  margin-right: -1px;
+}
+.input-group-date .input-date-right-btn{
+  padding: 6px 5px;
+  border-radius: 0px 4px 4px 0px;
+  margin-left: -1px;
+}
+.pr10{
+  padding-right: 10px !important;
+}
+.btn-regular {
+  height: 40px;
+}
+a:hover {
+  text-decoration: none;
+}
+.input-d{
+  padding: 6px;
+  width: 100%;
+}
+/* Date picker Css */
+.drops-down-auto{
+  top: 96% !important;
+}
+.md-drppicker td.active, .md-drppicker td.active:hover{
+  background: #20C65A !important;
+}
