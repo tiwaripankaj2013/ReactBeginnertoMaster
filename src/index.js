@@ -1,15 +1,19 @@
 //Import React from 'react';
 import React from 'react';
+import './assets/css/common.scss';
 import ReactDOM from 'react-dom';
-
+import Sidebar from './sidebar/sidebar';
 const App = () =>{
+  const buttonText= ['click me', 'welcome to learn react dev'];
     return (
         <div>
-            <label className="label" for="name"></label>
+            <label className="label"></label>
             Hi welcome to learn react 
             <input id="name" type="text" />
-            <button style={{background:'blue',color:'white'}}>save</button>
+            <button style={{background:'blue',color:'white'}}>{buttonText}</button>
+            <Sidebar />
         </div>
+        
     ) ;
 };
 
