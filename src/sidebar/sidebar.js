@@ -20,7 +20,7 @@ class Sidebar extends React.Component {
           <div className="logo text-center">
             <img src={require("../assets/images/Group.png")} alt="logo" />
           </div>
-          <div class="menue text-center">
+          <div className="menue text-center">
             <a>
               <span className="fIcon icon-list ifit" onClick={this.toggleBox}></span>
             </a>
