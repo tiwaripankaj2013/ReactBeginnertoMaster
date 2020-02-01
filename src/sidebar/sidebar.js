@@ -46,7 +46,7 @@ class Sidebar extends React.Component {
           <div className="form-group">
           <h3 className="title">Sygnio Sections</h3>
           <div style={{ background: '#F18C16', cursor: 'pointer' }} className="sideMenueWidgit text-center">
-            <i className="custom-icon icon-floor"></i>
+            <i className="custom-icon icon-menu"></i>
             <p>Dashboard</p>
           </div>
           {/* <div style={{ background: '#05DCC2', cursor: 'pointer' }} className="sideMenueWidgit text-center">
@@ -54,7 +54,7 @@ class Sidebar extends React.Component {
             <p>Membership</p>
           </div> */}
           <div style={{ background: '#F0C734', cursor: 'pointer' }} className="sideMenueWidgit text-center">
-            <i className="custom-icon icon-floor"></i>
+            <i className="custom-icon icon-staff-user"></i>
             <p>Staff Management</p>
           </div>
           <div style={{ background: '#E065E2', cursor: 'pointer' }} className="sideMenueWidgit text-center">
@@ -62,27 +62,27 @@ class Sidebar extends React.Component {
             <p>Floor Management</p>
           </div>
           <div style={{ background: '#17D463', cursor: 'pointer' }} className="sideMenueWidgit text-center">
-            <i className="custom-icon icon-floor"></i>
+            <i className="custom-icon icon-pos"></i>
             <p>Inventory Management</p>
           </div>
           <div style={{ background: '#1688F1', cursor: 'pointer' }} className="sideMenueWidgit text-center">
-            <i className="custom-icon icon-floor"></i>
+            <i className="custom-icon icon-transactions"></i>
             <p>POS</p>
           </div>
           <div style={{ background: '#6C63FF', cursor: 'pointer' }} className="sideMenueWidgit text-center">
-            <i className="custom-icon icon-floor"></i>
+            <i className="custom-icon icon-transactions"></i>
             <p>Transactions</p>
           </div>
           <div style={{ background: '#355FCA', cursor: 'pointer' }} className="sideMenueWidgit text-center">
-            <i className="custom-icon icon-floor"></i>
+            <i className="custom-icon icon-report"></i>
             <p>Reports</p>
           </div>
           <div style={{ background: '#A64EFF', cursor: 'pointer' }} className="sideMenueWidgit text-center">
-            <i className="custom-icon icon-floor"></i>
+            <i className="custom-icon icon-customer"></i>
             <p>Customers</p>
           </div>
           <div style={{ background: '#58B8AC', cursor: 'pointer' }} className="sideMenueWidgit text-center">
-            <i className="custom-icon icon-floor"></i>
+            <i className="custom-icon icon-setting"></i>
             <p>Settings</p>
           </div>
           {/* <div style={{ background: '#16CAF1', cursor: 'pointer' }} className="sideMenueWidgit text-center">
@@ -90,7 +90,7 @@ class Sidebar extends React.Component {
             <p>Gift cards</p>
           </div> */}
           <div style={{ background: '#4D77A7', cursor: 'pointer' }} className="sideMenueWidgit text-center">
-            <i className="custom-icon icon-floor"></i>
+            <i className="custom-icon icon-order"></i>
             <p>Orders</p>
           </div>
           {/* <div style={{ background: '#4D77A7', cursor: 'pointer' }} className="sideMenueWidgit text-center">
