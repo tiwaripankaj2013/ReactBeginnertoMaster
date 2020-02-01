@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'customIcon';
-    src:  url('../icons/custom-icon.eot?uzdhz5');
-    src:  url('../icons/custom-icon.eot?uzdhz5#iefix') format('embedded-opentype'),
-      url('../icons/custom-icon.ttf?uzdhz5') format('truetype'),
-      url('../icons/custom-icon.woff?uzdhz5') format('woff'),
-      url('../icons/custom-icon.svg?uzdhz5#icomoon') format('svg');
+    src:  url('../icons/custom-icon.eot?dfd721');
+    src:  url('../icons/custom-icon.eot?dfd721#iefix') format('embedded-opentype'),
+      url('../icons/custom-icon.ttf?dfd721') format('truetype'),
+      url('../icons/custom-icon.woff?dfd721') format('woff'),
+      url('../icons/custom-icon.svg?dfd721#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,95 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-order:before {
+  content: "\e93e";
+}
+.icon-customer:before {
+  content: "\e93f";
+}
+.icon-setting:before {
+  content: "\e940";
+}
+.icon-report:before {
+  content: "\e941";
+}
+.icon-transactions:before {
+  content: "\e942";
+}
+.icon-pos:before {
+  content: "\e92f";
+}
+.icon-Inventory:before {
+  content: "\e930";
+}
+.icon-staff-user:before {
+  content: "\e931";
+}
+.icon-credit-card .path1:before {
+  content: "\e932";
+  color: rgb(136, 136, 144);
+}
+.icon-credit-card .path2:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(86, 83, 90);
+}
+.icon-credit-card .path3:before {
+  content: "\e934";
+  margin-left: -1em;
+  color: rgb(255, 220, 64);
+}
+.icon-credit-card .path4:before {
+  content: "\e935";
+  margin-left: -1em;
+  color: rgb(255, 104, 73);
+}
+.icon-credit-card .path5:before {
+  content: "\e936";
+  margin-left: -1em;
+  color: rgb(255, 234, 132);
+}
+.icon-credit-card .path6:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-credit-card .path7:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-credit-card .path8:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(255, 220, 64);
+}
+.icon-credit-card .path9:before {
+  content: "\e93a";
+  margin-left: -1em;
+  color: rgb(255, 171, 21);
+}
+.icon-credit-card .path10:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(255, 234, 132);
+}
+.icon-credit-card .path11:before {
+  content: "\e93c";
+  margin-left: -1em;
+  color: rgb(255, 220, 64);
+}
+.icon-credit-card .path12:before {
+  content: "\e93d";
+  margin-left: -1em;
+  color: rgb(242, 242, 244);
+}
+.icon-tip:before {
+  content: "\e92e";
+}
+.icon-trash:before {
+  content: "\e92d";
+}
 .icon-new_device:before {
   content: "\e924";
 }
