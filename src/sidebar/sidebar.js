@@ -14,7 +14,6 @@ class Sidebar extends React.Component {
   };
   render() {
     const { isSideBarVisible } = this.state;
-    const { flyList } = this.State;
     return (
       <div className="dashboar">
         <div className="leftMenuBar1">
@@ -27,7 +26,7 @@ class Sidebar extends React.Component {
             </a>
           </div>
           <div class="bst">
-            <div class="avatar" onClick={this.toggleFlylistHandler}>
+            <div class="avatar">
               <h4 class="avatar-text">NK</h4>
             </div>
             <div className="flylist">
