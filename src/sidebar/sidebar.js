@@ -3,14 +3,18 @@ import "./sidebar.css";
 
 class Sidebar extends React.Component {
   state = {
-    isSideBarVisible:false,
-    isFlylistShown:false
+    isSideBarVisible:true,
+    flyList:false
   };
   toggleBox = () => {
     this.setState(prevState => ({ isSideBarVisible: !prevState.isSideBarVisible }));
   };
+  toggleFlylistHandler = () => {
+    this.setState(lastState => ({flyList: !lastState.flyList}))
+  };
   render() {
     const { isSideBarVisible } = this.state;
+    const { flyList } = this.State;
     return (
       <div className="dashboar">
         <div className="leftMenuBar1">
@@ -23,7 +27,7 @@ class Sidebar extends React.Component {
             </a>
           </div>
           <div class="bst">
-            <div class="avatar">
+            <div class="avatar" onClick={this.toggleFlylistHandler}>
               <h4 class="avatar-text">NK</h4>
             </div>
             <div className="flylist">
