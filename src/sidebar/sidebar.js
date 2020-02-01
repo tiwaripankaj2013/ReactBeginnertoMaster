@@ -3,11 +3,14 @@ import "./sidebar.css";
 
 class Sidebar extends React.Component {
   state = {
-    isSideBarVisible:false,
-    isFlylistShown:false
+    isSideBarVisible:true,
+    flyList:false
   };
   toggleBox = () => {
     this.setState(prevState => ({ isSideBarVisible: !prevState.isSideBarVisible }));
+  };
+  toggleFlylistHandler = () => {
+    this.setState(lastState => ({flyList: !lastState.flyList}))
   };
   render() {
     const { isSideBarVisible } = this.state;
