@@ -25,17 +25,17 @@ class Sidebar extends React.Component {
               <span className="fIcon icon-list ifit" onClick={this.toggleBox}></span>
             </a>
           </div>
-          <div class="bst">
-            <div class="avatar">
-              <h4 class="avatar-text">NK</h4>
+          <div className="bst">
+            <div className="avatar">
+              <h4 className="avatar-text">NK</h4>
             </div>
             <div className="flylist">
               <div className="flylist-link">
                 <a className="">
-                  <i class="custom-icon icon-user pr10"></i>Profile
+                  <i className="custom-icon icon-user pr10"></i>Profile
                 </a>
-                <a class="" href="javascript:void(0)">
-                  <i class="custom-icon icon-sign-out pr10"></i>Logout
+                <a className="">
+                  <i className="custom-icon icon-sign-out pr10"></i>Logout
                 </a>
               </div>
             </div>
