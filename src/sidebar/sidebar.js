@@ -21,9 +21,7 @@ class Sidebar extends React.Component {
             <img src={require("../assets/images/Group.png")} alt="logo" />
           </div>
           <div className="menue text-center">
-            <a>
               <span className="fIcon icon-list ifit" onClick={this.toggleBox}></span>
-            </a>
           </div>
           <div className="bst">
             <div className="avatar">
@@ -31,10 +29,10 @@ class Sidebar extends React.Component {
             </div>
             <div className="flylist">
               <div className="flylist-link">
-                <a className="">
+                <a className="" href="#abc">
                   <i className="custom-icon icon-user pr10"></i>Profile
                 </a>
-                <a className="">
+                <a className="" href="#abc">
                   <i className="custom-icon icon-sign-out pr10"></i>Logout
                 </a>
               </div>
